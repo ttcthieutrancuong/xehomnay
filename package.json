@@ -1,0 +1,45 @@
+{
+  "name": "xehomnay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@hookform/resolvers": "*",
+    "@mantine/core": "*",
+    "@mantine/dates": "*",
+    "@mantine/dropzone": "*",
+    "@mantine/hooks": "*",
+    "@mantine/notifications": "*",
+    "@prisma/client": "*",
+    "@tabler/icons-react": "*",
+    "@tanstack/react-query": "*",
+    "next": "16.4.6",
+    "next-auth": "*",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "*",
+    "zustand": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "dotenv": "*",
+    "prettier": "*",
+    "prettier-plugin-organize-imports": "*",
+    "prisma": "*",
+    "tsx": "*",
+    "typescript": "^5"
+  }
+}

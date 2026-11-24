@@ -1,1 +1,0 @@
-// Payment feature entry point.
